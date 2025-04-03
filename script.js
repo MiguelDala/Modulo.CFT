@@ -1,22 +1,21 @@
-// Adicionar animação de fade-in quando a página carrega
+
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header');
     const cards = document.querySelectorAll('.card');
     const ctaSection = document.querySelector('.cta-section');
     
-    // Animação inicial do cabeçalho
+
     animateHeader();
     
-    // Animação inicial dos cards
+   
     animateCards();
     
-    // Configurar animações de scroll
+  
     setupScrollAnimations();
     
-    // Configurar animações de hover
     setupHoverEffects();
     
-    // Adicionar efeito de parallax
+
     setupParallax();
 
     // Funções de animação
